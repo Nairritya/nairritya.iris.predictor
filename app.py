@@ -23,4 +23,4 @@ def predict():
 # ✅ THIS PART IS MANDATORY
 if _name_ == '_main_':
     print("Starting Flask app...")
-    app.run(debug=False, host='0.0.0.0', port=int(os.environ.get("PORT", 5000)))
+    app.run(debug=False, host='0.0.0.0', port=int(os.environ.get("PORT",5000)))
